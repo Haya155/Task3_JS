@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    background-color: #ffffff;
+}
+
+.toolbar {
+    width: 600px;
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    border: 1px solid #000;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+
+
+select {
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+
+label {
+    cursor: pointer;
+    user-select: none;
+}
+
+#textOutput {
+    width: 600px;
+    height: 150px;
+    border: 2px solid #000;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+}

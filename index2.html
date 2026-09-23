@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="stylee2.css">
+</head>
+<body>
+
+  
+    <div class="toolbar">
+        <select id="fontFamily">
+            <option value="Fantasy">Fantasy</option>
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+
+        <select id="fontSize">
+            <option value="12px">12px</option>
+            <option value="15px" selected>15px</option>
+            <option value="20px">20px</option>
+            <option value="25px">25px</option>
+        </select>
+
+        <label><input type="checkbox" id="italicCheck"> Italic</label>
+        <label><input type="checkbox" id="boldCheck"> Bold</label>
+        <label><input type="checkbox" id="underlineCheck"> Underline</label>
+    </div>
+
+    <textarea id="textOutput" placeholder="the quick brown fox over the lazy dog"></textarea>
+
+    <script src="script2.js"></script>
+</body>
+</html>
