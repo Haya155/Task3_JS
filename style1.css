@@ -1,72 +1,46 @@
 body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f9;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #ffffff;
+}
 
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
-        }
 
-        h2 {
-            color: #333;
-            margin-bottom: 25px;
-        }
+.container {
+    text-align: center; 
+}
+h2 {
+    margin-bottom: 20px;
+}
 
-        /* الصورة المستهدفة */
-        #targetImage {
-            width: 300px;
-            height: 300px;
-            object-fit: cover; /* للحفاظ على تناسب الصورة */
-            border: 5px solid #ddd;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-            margin-bottom: 25px;
-            /* الانتقال السلس لتغيير الشكل */
-            transition: border-radius 0.5s ease-in-out, box-shadow 0.3s;
-        }
 
-        /* تأثير عند تمرير الماوس فوق الصورة (إضافة جمالية) */
-        #targetImage:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto; 
+    transition: 0.3s;
+}
 
-        /* الأزرار */
-        .control-btn {
-            padding: 12px 25px;
-            margin: 0 10px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s, transform 0.1s;
-        }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
-        .control-btn:active {
-            transform: scale(0.97); /* تأثير ضغطة الزر */
-        }
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-        /* --- Group 3 & 4: Event Styles --- */
-        /* زر الدائرة */
-        #circleBtn {
-            background-color: #3498db; /* أزرق */
-            color: white;
-        }
-        /* عند التمرير فوق زر الدائرة */
-        #circleBtn:hover { background-color: #2980b9; }
-
-        /* زر المربع */
-        #squareBtn {
-            background-color: #2ecc71; /* أخضر */
-            color: white;
-        }
-        /* عند التمرير فوق زر المربع */
-        #squareBtn:hover { background-color: #27ae60; }
+button:hover {
+    background-color: #e0e0e0;
+}
