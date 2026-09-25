@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="orderForm">
+        
+        <div class="infoForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your name" required>
+        </div>
+
+        <div class="infoForm">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="At least 8 chars & 1 number" required>
+        </div>
+
+        <div class="infoForm">
+            <label for="phonenumber">Phone Number:</label>
+            <input type="text" id="phonenumber" placeholder="07xxxxxxxx" required>
+        </div>
+
+        <div class="infoForm">
+            <label for="order">Order:</label>
+            
+            <input type="text" id="order" placeholder="Enter your order (Burger/Shawarma/Zinger)" required>
+        </div>
+
+        <button type="submit" id="submitBtn">Submit Order</button>
+    </form>
+
+    <div id="resultBox"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
