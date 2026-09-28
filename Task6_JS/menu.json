@@ -1,0 +1,25 @@
+{  
+     "menu": [
+        {
+            "mealName": "Burger",
+            "price": 5,
+            "availability": true
+        },
+        {
+            "mealName": "Zinger",
+            "price": 3,
+            "availability": true
+        },
+        {
+            "mealName": "Pasta",
+            "price": 3,
+            "availability": false
+        },
+        {
+            "mealName": "Shawarma",
+            "price": 2,
+            "availability": true
+        }
+
+    ]
+}
